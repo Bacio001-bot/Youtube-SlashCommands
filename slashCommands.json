@@ -1,0 +1,14 @@
+{
+    "kick": {
+        "permissions": ["ADMINISTRATOR"],
+        "description": "TestDescription one",
+        "options": [
+            {
+              "name": "user",
+              "type": "USER",
+              "description": "Give the user you would like kicked",
+              "required": true
+            }
+          ]
+    }
+}
