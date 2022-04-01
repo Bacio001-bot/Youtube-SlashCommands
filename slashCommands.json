@@ -1,14 +1,39 @@
 {
-    "kick": {
-        "permissions": ["ADMINISTRATOR"],
-        "description": "TestDescription one",
-        "options": [
-            {
-              "name": "user",
-              "type": "USER",
-              "description": "Give the user you would like kicked",
-              "required": true
-            }
-          ]
-    }
+  "kick": {
+    "permissions": ["ADMINISTRATOR"],
+    "description": "TestDescription one",
+    "options": [
+      {
+        "name": "user",
+        "type": "USER",
+        "description": "Give the user you would like kicked",
+        "required": true
+      },
+      {
+        "name": "reason",
+        "type": "STRING",
+        "description": "Give the reason why the user is kicked",
+        "required": false
+      }
+    ]
+  },
+
+  "ban": {
+    "permissions": ["ADMINISTRATOR"],
+    "description": "TestDescription one",
+    "options": [
+      {
+        "name": "user",
+        "type": "USER",
+        "description": "Give the user you would like banned",
+        "required": true
+      },
+      {
+        "name": "reason",
+        "type": "STRING",
+        "description": "Give the reason why the user is banned",
+        "required": false
+      }
+    ]
+  }
 }
